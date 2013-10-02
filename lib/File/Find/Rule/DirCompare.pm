@@ -21,7 +21,7 @@ Version 0.01
 
 =cut
 
-our $VERSION = '0.01';
+our $VERSION = '0.020';
 
 =head1 SYNOPSIS
 
@@ -67,7 +67,7 @@ by L<File::Find::Rule> according to the matching rules.
 Accept a list of directory names to be checked if found files exists in any
 of them or not. The directory names are interpreted relative to the current
 directory (L<Cwd/cwd>), not relative to the directory specified in C<in>.
-To ensure the right directory is choosen, specify an absolute path.
+To ensure the right directory is chosen, specify an absolute path.
 
 If the first argument is an array reference, the list in this array
 will be used.
@@ -77,7 +77,7 @@ will be used.
 Accept a list of directory names to be checked if found files does not
 exists in any of them or not. The directory names are interpreted relative
 to the current directory (L<Cwd/cwd>), not relative to the directory
-specified in C<in>.  To ensure the right directory is choosen, specify an
+specified in C<in>.  To ensure the right directory is chosen, specify an
 absolute path.
 
 If the first argument is an array reference, the list in this array
@@ -89,7 +89,7 @@ Accept a list of directory names to be checked if found files exists in any
 of them and have a newer timestamp when it's last modified. The directory
 names are interpreted relative to the current directory (L<Cwd/cwd>), not
 relative to the directory specified in C<in>.  To ensure the right directory
-is choosen, specify an absolute path.
+is chosen, specify an absolute path.
 
 If the first argument is an array reference, the list in this array
 will be used.
@@ -100,7 +100,7 @@ Accept a list of directory names to be checked if found files exists in any
 of them and have an older timestamp when it's last modified. The directory
 names are interpreted relative to the current directory (L<Cwd/cwd>), not
 relative to the directory specified in C<in>.  To ensure the right directory
-is choosen, specify an absolute path.
+is chosen, specify an absolute path.
 
 If the first argument is an array reference, the list in this array
 will be used.
@@ -226,7 +226,7 @@ L<http://search.cpan.org/dist/File-Find-Rule-DirCompare/>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2010 Jens Rehsack.
+Copyright 2010-2013 Jens Rehsack.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of either: the GNU General Public License as published

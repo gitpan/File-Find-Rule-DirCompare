@@ -6,8 +6,9 @@ build_requires:
   File::Touch: 0
   Test::More: 0
 configure_requires:
-  Module::Build: 0.36
-generated_by: 'Module::Build version 0.3603'
+  Module::Build: 0.40
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4007, CPAN::Meta::Converter version 2.132661'
 license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
@@ -19,11 +20,12 @@ no_index:
 provides:
   File::Find::Rule::DirCompare:
     file: lib/File/Find/Rule/DirCompare.pm
-    version: 0.01
+    version: 0.020
 requires:
   File::Find::Rule: 0.3
   Params::Util: 1
   Text::Glob: 0
 resources:
   license: http://dev.perl.org/licenses/
-version: 0.01
+  repository: https://github.com/rehsack/File-Find-Rule-DirCompare
+version: 0.020
